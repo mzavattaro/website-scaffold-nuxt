@@ -14,6 +14,9 @@ module.exports = {
       lavender: "#EDE3FF",
       "dark-lavender": "#672FC3",
       "light-sky": "#DFF4FF",
+      "morning-sun": "#FF9D29",
+      rose: "#F1509E",
+      white: "#FFFFFF",
     },
     spacing: {
       px: "1px",
