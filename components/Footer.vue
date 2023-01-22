@@ -14,19 +14,20 @@
       </div>
     </div>
   </div>
-  <div class="flex justify-center mt-10">
-    <div class="flex flex-col items-center">
-      <div class="mb-6">
-        <UiSvg name="migaku-logo-mono" />
-      </div>
-      <div class="flex mb-6">
-        <UiSvg class="pr-11" name="facebook-mono" />
-        <UiSvg class="pr-11" name="twitter-mono" />
-        <UiSvg class="pr-11" name="instagram-mono" />
-        <UiSvg name="discord-mono" />
-      </div>
-      <span class="text-primary/[.6]">©2022 Migaku</span>
+
+  <div
+    class="flex flex-col items-center justify-center mt-10 sm:justify-between sm:flex-row"
+  >
+    <div class="mb-6 sm:mb-0">
+      <UiSvg name="migaku-logo-mono" />
     </div>
+    <div class="flex mb-6 sm:mb-0">
+      <UiSvg class="pr-11" name="facebook-mono" />
+      <UiSvg class="pr-11" name="twitter-mono" />
+      <UiSvg class="pr-11" name="instagram-mono" />
+      <UiSvg name="discord-mono" />
+    </div>
+    <span class="text-primary/[.6]">©2022 Migaku</span>
   </div>
 </template>
 

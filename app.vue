@@ -1,9 +1,9 @@
 <template>
   <div
-    class="flex flex-col items-center w-full px-6 xl:px-0 sm:mx-auto text-primary max-w-7xl"
+    class="flex flex-col items-center w-full px-6 mb-4 xl:px-0 sm:mx-auto text-primary max-w-7xl sm:mb-18"
   >
     <!-- TODO: Implement the pricing page here -->
-    <!-- <Header /> -->
+    <Header />
     <Hero />
     <PriceCard
       v-if="priceCards != null"
