@@ -4,7 +4,15 @@
   >
     <!-- TODO: Implement the pricing page here -->
     <!-- <Header /> -->
-    <div class="w-full mb-10 sm:mb-18">
+    <Hero />
+    <PriceCard
+      v-if="priceCards != null"
+      v-for="priceCard in priceCards"
+      :key="priceCard.id"
+      :heading="priceCard.id"
+    />
+
+    <div class="w-full mt-8 mb-10 sm:mb-18">
       <Card />
     </div>
     <div class="self-start w-full">
@@ -13,7 +21,53 @@
   </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const priceCards = ref([
+  {
+    id: 1,
+    heading: "Basic Plan",
+    description: "Our most popular plan.",
+    price: "$5",
+    duration: "Monthly",
+    usps: [
+      { item: "Create unlimited flashcards" },
+      { item: "Export unlimited flashcards" },
+      { item: "Migaku Cloud word syncing" },
+      { item: "Track your known words" },
+      { item: "Access to Pitch Trainer" },
+    ],
+  },
+  {
+    id: 2,
+    heading: "Lifetime",
+    description: "The most cost-effective plan.",
+    price: "$199",
+    duration: "Only once",
+    usps: [
+      { item: "Access to Alpha Builds" },
+      { item: "Create unlimited flashcards" },
+      { item: "Export unlimited flashcards" },
+      { item: "Migaku Cloud word syncing" },
+      { item: "Track your known words" },
+      { item: "Access to Pitch Trainer" },
+    ],
+  },
+  {
+    id: 3,
+    heading: "Try It",
+    description: "Try before you buy.",
+    price: "FREE",
+    duration: "30 days",
+    usps: [
+      { item: "Create a Migaku account" },
+      { item: "30-day free trial" },
+      { item: "Create 100 flashcards" },
+      { item: "Mass export 10 flashcards at a time" },
+      { item: "No Migaku Cloud" },
+    ],
+  },
+]);
+</script>
 
 <style lang="scss">
 // CSS reset

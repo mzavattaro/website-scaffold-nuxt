@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col items-center w-full px-6 py-6 text-center shadow sm:px-14 sm:py-12 sm:text-left sm:flex-row rounded-2xl"
+    class="flex flex-col items-center w-full px-6 py-6 text-center shadow-xl sm:px-14 sm:py-12 sm:text-left sm:flex-row rounded-2xl"
   >
     <h1 class="text-2xl font-black sm:w-full">
       Join our active Discord community!
@@ -17,5 +17,4 @@
   </div>
 </template>
 
-<!-- Component to render an SVG found in `@/assets/svg/<name>.svg` -->
 <script lang="ts" setup></script>

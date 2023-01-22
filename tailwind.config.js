@@ -13,6 +13,7 @@ module.exports = {
       primary: "#00005A",
       lavender: "#EDE3FF",
       "dark-lavender": "#672FC3",
+      "light-sky": "#DFF4FF",
     },
     spacing: {
       px: "1px",
@@ -67,7 +68,11 @@ module.exports = {
       120: "42rem", //672px
       122: "42.25rem", //676px
     },
-    extend: {},
+    extend: {
+      rotate: {
+        20: "14deg",
+      },
+    },
   },
   plugins: [],
 };
