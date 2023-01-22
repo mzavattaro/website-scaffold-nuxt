@@ -1,0 +1,14 @@
+/* Basic typography - should be suffient for now, but feel free to adjust these as you see fit */
+html {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'GT-Maru', Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'GT-Maru';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("GT-Maru-Regular-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'GT-Maru';
+  font-style:  italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("GT-Maru-Italic-Trial.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'GT-Maru';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("GT-Maru-Bold-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'GT-Maru';
+  font-style:  italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("GT-Maru-Bold-Oblique-Trial.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'GT-Maru';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("GT-Maru-Black-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'GT-Maru';
+  font-style:  italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("GT-Maru-Black-Oblique-Trial.woff2") format("woff2");
+}
