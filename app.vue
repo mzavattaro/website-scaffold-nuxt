@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="text-primary">
     <!-- TODO: Implement the pricing page here -->
-    <Header />
-    <Card />
+    <!-- <Header />
+    <Card /> -->
     <Footer />
     <!-- SVG example -->
   </div>
