@@ -2,7 +2,12 @@
   <div
     class="grid w-full grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6"
   >
-    <div class="font-bold" v-if="items != null" v-for="item in items">
+    <div
+      class="font-bold"
+      v-if="items != null"
+      v-for="item in items"
+      :key="item.id"
+    >
       {{ item.heading }}
       <div
         class="text-primary/[.6] py-1 font-medium"
@@ -35,6 +40,7 @@
 <script lang="ts" setup>
 const items = ref([
   {
+    id: 1,
     heading: "Products",
     links: [
       { link: "Browser extension" },
@@ -43,6 +49,7 @@ const items = ref([
     ],
   },
   {
+    id: 2,
     heading: "Use cases",
     links: [
       { link: "Input-based learning" },
@@ -52,6 +59,7 @@ const items = ref([
     ],
   },
   {
+    id: 3,
     heading: "Help!",
     links: [
       { link: "Support" },
@@ -60,10 +68,12 @@ const items = ref([
     ],
   },
   {
+    id: 4,
     heading: "Brand",
     links: [{ link: "Partnerships" }, { link: "Press Kit" }],
   },
   {
+    id: 5,
     heading: "Resources",
     links: [
       { link: "Support us on Patreon" },
@@ -74,6 +84,7 @@ const items = ref([
     ],
   },
   {
+    id: 6,
     heading: "Company",
     links: [
       { link: "About" },

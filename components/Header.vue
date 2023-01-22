@@ -13,7 +13,7 @@
       <UiSvg name="migaku-logo-color" />
     </div>
     <div class="flex items-center">
-      <div class="mr-6 text-lg font-bold">Log in</div>
+      <a href="/" class="mr-6 text-lg font-bold">Log in</a>
       <button
         class="px-4 rounded-full py-2.5 bg-gradient-to-b from-morning-sun to-rose"
       >
