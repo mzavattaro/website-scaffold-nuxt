@@ -3,10 +3,12 @@
     class="flex flex-col items-center w-full px-6 mb-4 xl:px-0 sm:mx-auto text-primary max-w-7xl sm:mb-18"
   >
     <!-- TODO: Implement the pricing page here -->
-
-    <Header />
+    <div class="w-full mb-27">
+      <Header />
+    </div>
 
     <Hero />
+
     <PriceCard
       v-if="priceCards != null"
       v-for="priceCard in priceCards"
