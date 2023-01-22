@@ -11,6 +11,8 @@ module.exports = {
   theme: {
     colors: {
       primary: "#00005A",
+      lavender: "#EDE3FF",
+      "dark-lavender": "#672FC3",
     },
     spacing: {
       px: "1px",

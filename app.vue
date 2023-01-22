@@ -1,10 +1,15 @@
 <template>
-  <div class="text-primary">
+  <div
+    class="flex flex-col items-center w-full px-6 xl:px-0 sm:mx-auto text-primary max-w-7xl"
+  >
     <!-- TODO: Implement the pricing page here -->
-    <!-- <Header />
-    <Card /> -->
-    <Footer />
-    <!-- SVG example -->
+    <!-- <Header /> -->
+    <div class="w-full mb-10 sm:mb-18">
+      <Card />
+    </div>
+    <div class="self-start w-full">
+      <Footer />
+    </div>
   </div>
 </template>
 
